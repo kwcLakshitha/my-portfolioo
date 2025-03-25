@@ -3,3 +3,131 @@ header {
     height: 100px;
     background-color: aqua;
 }
+#home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #141313;
+}
+
+header {
+    width: 80vw;
+    height: 10vh;
+    background-color: #2a2a2a;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header > ul {
+    width: fit-content;
+    height: fit-content;
+    /*background-color: deepskyblue;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+header > ul > li {
+    list-style: none;
+    display: inline-block;
+    padding:  10px 50px;
+    margin: 10px;
+}
+
+header > ul > li > a:hover {
+    color: cornsilk;
+    font-size: 18px;
+}
+
+header > ul > li > a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #9C9C9C;
+    transition-duration: 800ms;
+
+}
+
+#about-me {
+    width: 70vw;
+    height: 80vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10vh;
+    bottom: 0;
+    margin: auto;
+    /* border: 2px solid #2efc00; */
+}
+
+#contact-me {
+    width: fit-content;
+    height: 55vh;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+#contact-me > h1 {
+
+    font-size: 60px;
+}
+
+
+#contact-me > p {
+
+    font-size: 21px;
+    color: #9C9C9C;
+
+}
+
+#contact-me > button {
+    width: 230px;
+    height: 60px;
+    background-color: #075607;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #087b08;
+    position: absolute;
+    left: 0;
+    bottom: 15vh;
+    transition-duration: 800ms;
+}
+
+#contact-me > button > a {
+    font-size: 16px;
+    font-weight: bold;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+#contact-me > button > a:hover {
+    font-weight: bolder;
+}
+
+#contact-me > button:hover {
+    background-color: #087b08;
+    border: 1px solid #2efc00;
+}
+
+#contact-me > label {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
