@@ -51,6 +51,20 @@ header > ul > li > a {
 
 }
 
+header > #media {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    right: 10vh;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* background-color: #2efc00; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #about-me {
     width: 70vw;
     height: 80vh;
@@ -175,3 +189,62 @@ header > ul > li > a {
     margin: auto;
 }
 
+
+#project {
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+    background-color: aliceblue;
+}
+
+#project > #projects {
+    width: 70vw;
+    height: 170vh;
+    border: 2px solid #707070;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    bottom: 5vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#project > #projects > div {
+
+    width: 70vw;
+    height: 45vh;
+    border: 2px solid red;
+    /* position: absolute; */
+}
+
+/* #project > #projects > div:first-child {
+
+    top: 30vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+} */
+
+/* #project > #projects > div:nth-child(2) {
+
+    top: 25vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+} */
+
+#project > #projects > div:nth-child(3) {
+
+    bottom: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
