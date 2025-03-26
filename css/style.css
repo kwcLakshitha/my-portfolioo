@@ -217,7 +217,7 @@ header > #media {
 
     width: 70vw;
     height: 45vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
 }
 
