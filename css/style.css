@@ -199,7 +199,7 @@ header > #media {
 
 #project > #projects {
     width: 70vw;
-    height: 170vh;
+    height: 160vh;
     border: 2px solid #707070;
     position: absolute;
     left: 0;
@@ -218,33 +218,181 @@ header > #media {
     width: 70vw;
     height: 45vh;
     border: 2px solid red;
-    /* position: absolute; */
+    position: relative;
 }
 
-/* #project > #projects > div:first-child {
+#project > h1 {
 
-    top: 30vh;
-    left: 0;
+    position: absolute;
     right: 0;
+    left: 0;
+    top: 3vh;
     margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
 
-} */
 
-/* #project > #projects > div:nth-child(2) {
+}
 
-    top: 25vh;
+#project > p {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 13vh;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: #9C9C9C;
+    text-align: center;
+    font-size: 21px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#project > #projects > div > h1 {
+
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+#project > #projects > div > p {
+    
+    width: fit-content;
+    height: fit-content;
+    color: #9C9C9C;
+    font-size: 24px;
+    font-family: serif;
+    font-weight: lighter;
+    position: absolute;
+}
+
+#project > #projects > div > button {
+    width: 350px;
+    height: 50px;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    transition-duration: 800ms;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#project > #projects > #smart_school > h1 {
+    top: 0;
+    left: 0;
+}
+
+#project > #projects > #smart_school > p {
+
+    top: 0;
+    left: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto;
-
-} */
-
-#project > #projects > div:nth-child(3) {
-
-    bottom: 5vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-
 }
+
+#project > #projects > #smart_school > button {
+
+    background-color: rgb(165, 148, 53);
+    bottom: 2vh;
+    left: 0;
+}
+
+#project > #projects > #smart_school > button:hover {
+    background-color: rgb(231, 200, 24);
+}
+
+#project > #projects > #smart_school > img {
+    width: 35vw;
+    height: 45vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#project > #projects > #tic_tac > h1 {
+    top: 0;
+    right: 0;
+}
+
+#project > #projects > #tic_tac > p {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#project > #projects > #tic_tac > button {
+    background-color: rgb(25, 33, 138);
+    bottom: 2vh;
+    right: 0;
+}
+
+#project > #projects > #tic_tac > button:hover {
+    background-color: rgb(20, 33, 223);
+}
+
+#project > #projects > #tic_tac > img {
+    width: 35vw;
+    height: 45vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#project > #projects > #m_health > h1 {
+    top: 0;
+    left: 0;
+}
+
+#project > #projects > #m_health > p {
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#project > #projects > #m_health > button {
+
+    background-color: rgb(36, 173, 144);
+    bottom: 2vh;
+    left: 0;
+}
+
+#project > #projects > #m_health > button:hover {
+    background-color: rgb(37, 230, 188);
+}
+
+#project > #projects > #m_health > img {
+    width: 35vw;
+    height: 45vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+
