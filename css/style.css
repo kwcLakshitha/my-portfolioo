@@ -337,7 +337,7 @@ header > #media {
     right: 0;
     bottom: 0;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 #project > #projects > #tic_tac > button {
@@ -394,5 +394,12 @@ header > #media {
     bottom: 0;
     margin: auto;
     border-radius: 10px;
+}
+
+#testimonial {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #141313;
 }
 
