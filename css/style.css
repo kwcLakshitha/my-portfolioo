@@ -536,6 +536,125 @@ header > #media {
     background-color: aliceblue;
 }
 
+#recentWork > h1 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 3vh;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#recentWork > p {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 13vh;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: #9C9C9C;
+    text-align: center;
+    font-size: 21px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#recentWork > #recentWorks {
+    width: 70vw;
+    height: 60vh;
+    /* border: 2px solid RED; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    bottom: 5vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#recentWork > #recentWorks > div {
+    width: 30vw;
+    height: 60vh;
+    /* border: #141313 solid 2px; */
+    position: relative;
+}
+
+#recentWork > #recentWorks > div > h1 {
+    position: absolute;
+    left: 0;
+    bottom: 16vh;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+#recentWork > #recentWorks > div > p {
+    position: absolute;
+    left: 0;
+    bottom: 8vh;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: #9C9C9C;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: initial;
+
+}
+#recentWork > #recentWorks > div > button {
+    width: 200px;
+    height: 50px;
+    font-size: 21px;
+    background-color: #075607;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition-duration: 800ms;
+    border: 1px solid #087b08;
+}
+#recentWork > #recentWorks > div > button:hover {
+    background-color: #087b08;
+    border: 1px solid #2efc00;
+}
+
+#recentWork > #recentWorks > div > button > a {
+    font-size: 16px;
+    font-weight: bold;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+#recentWork > #recentWorks > div > button > a:hover {
+    font-weight: bolder;
+}
+
+#recentWork > #recentWorks > div > img {
+    width: 30vw;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
 #getInTouch {
     position: relative;
     width: 100vw;
