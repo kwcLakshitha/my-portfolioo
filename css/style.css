@@ -662,3 +662,51 @@ header > #media {
     background-color: #141313;
 }
 
+#getInTouch > h1 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 3vh;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+#getInTouch > p {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 13vh;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    color: #9C9C9C;
+    text-align: center;
+    font-size: 21px;
+    font-family: serif;
+    font-weight: bold;
+}
+#getInTouch > #contactForm {
+    width: 25vw;
+    height: 55vh;
+    border: 2px solid RED;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    bottom:0;
+    margin: auto;
+}
+
+#getInTouch > #madeWith {
+    width: 100vw;
+    height: 10vh;
+    background-color: #2a2a2a;
+    position: absolute;
+    bottom: 0;
+}
+
